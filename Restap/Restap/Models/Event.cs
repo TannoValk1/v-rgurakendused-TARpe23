@@ -1,6 +1,15 @@
-﻿namespace Restap.Models
+﻿using NUnit.Framework.Internal;
+using System.Collections.Generic;
+using System.Xml.Linq;
+
+namespace Restap.Models
 {
     public class Event
     {
+        public int Id { get; set; }
+        public int SpeakerId { get; set; }
+        public string Name { get; set; }
+        public DateTime Date { get; set; }
+        public string Location { get; set; }
     }
 }

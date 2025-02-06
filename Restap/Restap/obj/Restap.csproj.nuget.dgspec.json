@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj": {}
+    "C:\\Users\\opilane\\Source\\Repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj": {
+    "C:\\Users\\opilane\\Source\\Repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Source\\Repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj",
         "projectName": "Restap",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj",
+        "projectPath": "C:\\Users\\opilane\\Source\\Repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\Restap.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Source\\Repos\\TannoValk1\\v-rgurakendused-TARpe23\\Restap\\Restap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,13 +44,24 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -75,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

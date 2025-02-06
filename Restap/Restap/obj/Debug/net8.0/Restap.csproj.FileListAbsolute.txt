@@ -1,0 +1,8 @@
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.csproj.AssemblyReference.cache
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.AssemblyInfoInputs.cache
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.AssemblyInfo.cs
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\opilane\Source\Repos\TannoValk1\v-rgurakendused-TARpe23\Restap\Restap\obj\Debug\net8.0\Restap.sourcelink.json
