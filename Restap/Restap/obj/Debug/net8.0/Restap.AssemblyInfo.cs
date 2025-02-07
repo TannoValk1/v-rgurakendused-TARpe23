@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Restap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b558b08a9f3ed083a46c14a851d5e3d252281178")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e62a9930dae76a3c974be207340f07608551bb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Restap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
