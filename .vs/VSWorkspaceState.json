@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SPA_APP_2024-main"
+    "\\SPA_APP_2024-main",
+    "\\SPA_APP_2024-main\\Backend",
+    "\\SPA_APP_2024-main\\Backend\\Model",
+    "\\SPA_APP_2024-main\\frontend",
+    "\\SPA_APP_2024-main\\frontend\\public",
+    "\\SPA_APP_2024-main\\frontend\\src",
+    "\\SPA_APP_2024-main\\frontend\\src\\components",
+    "\\SPA_APP_2024-main\\frontend\\src\\router",
+    "\\SPA_APP_2024-main\\frontend\\src\\stores"
   ],
-  "SelectedNode": "\\SPA_APP_2024-main\\SPA_APP_2024.sln",
+  "SelectedNode": "\\SPA_APP_2024-main\\frontend\\src\\components\\HumansList.vue",
   "PreviewInSolutionExplorer": false
 }
