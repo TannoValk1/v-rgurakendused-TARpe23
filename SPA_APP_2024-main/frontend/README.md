@@ -43,3 +43,4 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+<!--npm i; npm run dev; o + enter-->
