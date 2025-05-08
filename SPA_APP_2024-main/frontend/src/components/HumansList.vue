@@ -38,13 +38,30 @@
     import { ref } from 'vue';
     import DataTable from 'primevue/datatable';
     import Column from 'primevue/column';
+    import { useRoute } from "vue-router";
+    import { storeToRefs } from "pinia";
+    import { useHumansStore } from "@/stores/eventsStore";
 
     interface Human {
         id: number;
         name: string;
         age: number;
     }
+    const route = useRoute();
 
+    watch(route, (to, from) => {
+        if (to.path !== from.path || to.query !== from.query) {
+            humansStore.load();
+        }
+    }, { deep: true });
+
+    defineProps<{ title: String }>();
+    const humansStore = useHumansStore();
+    const { humans } = storeToRefs(humansStore);
+
+    onMounted(async () => {
+        humansStore.load();
+    });
     const humans = ref<Human[]>([
     ]);
 
