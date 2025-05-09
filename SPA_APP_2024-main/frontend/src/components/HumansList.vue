@@ -40,7 +40,7 @@
     import Column from 'primevue/column';
     import { useRoute } from "vue-router";
     import { storeToRefs } from "pinia";
-    import { useHumansStore } from "@/stores/eventsStore";
+    import { useHumansStore } from "@/stores/humansStore";
 
     interface Human {
         id: number;

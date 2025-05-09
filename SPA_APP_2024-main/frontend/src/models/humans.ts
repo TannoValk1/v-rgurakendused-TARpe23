@@ -5,5 +5,5 @@ export interface Humans {
 }
 
 export interface State {
-    events: Humans[];
+    humans: Humans[];
 }
