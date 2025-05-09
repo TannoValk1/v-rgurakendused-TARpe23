@@ -35,7 +35,7 @@
 </template>
 
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, watch, onMounted } from 'vue';
     import DataTable from 'primevue/datatable';
     import Column from 'primevue/column';
     import { useRoute } from "vue-router";
@@ -47,6 +47,7 @@
         name: string;
         age: number;
     }
+
     const route = useRoute();
 
     watch(route, (to, from) => {
@@ -62,8 +63,6 @@
     onMounted(async () => {
         humansStore.load();
     });
-    const humans = ref<Human[]>([
-    ]);
 
     const newHuman = ref<Omit<Human, 'id'>>({
         name: "",
